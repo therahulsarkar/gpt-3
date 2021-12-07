@@ -8,7 +8,7 @@ const Header = () => {
     <div className="gpt3Header sectionPadding" id="home">
       <div className="gpt3HeaderContent">
         <h1 className="gradientText">
-          Let&apos;s build the future of web with GPT-3 OpenAI
+          Let&apos;s build the future of web with GPT-3 OpenAI.
         </h1>
         <p>
         GPT-3 is a language model that was created by OpenAI, an artificial intelligence research laboratory in San Francisco. The 175-billion parameter deep learning model is capable of producing human-like text and was trained on large text datasets with hundreds of billions of words.
