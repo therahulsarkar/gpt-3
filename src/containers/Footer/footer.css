@@ -10,33 +10,44 @@
 .gpt3__footer-heading {
     width: 100%;
     text-align: center;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 3rem;
 }
 
 .gpt3__footer-heading h1 {
     font-family: var(--font-exo);
-    font-weight: 700;
-    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.1px;
+    font-size: 2.2rem;
     line-height: 75px;
+    margin-top: 5rem;
+}
+
+.gpt3__footer-heading img{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
 }
 
 .gpt3__footer-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background: linear-gradient(45deg, #4e17ce, #f75d0a);
     padding: 1rem;
-    border: 1px solid #fff;
     text-align: center;
-
-    margin-bottom: 10rem;
+    border-radius: 5px;
+    margin-bottom: 4rem;
     cursor: pointer;
 }
 
 .gpt3__footer-btn p {
-    font-size: 18px;
+    font-size: 16px;
     font-family: var(--font-exo);
+    font-weight: 500;
     line-height: 21px;
     color: #fff;
     word-spacing: 2px;
@@ -49,14 +60,22 @@
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-
+    /* background-color: #040C18; */
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(216, 71%, 5%, 1)'/><path d='M0 0h10v20H0zM30 0v10H10V0zM10 10h10v20H10zM40 10v10H20V10zM20 20h10v20H20zM50 20v10H30V20zM30 30h10v20H30zM20 30v10H0V30zM10 20v10h-20V20zM30-10h10v20H30z'  stroke-width='0.5' stroke='hsla(283, 0%, 18%, 0.35)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-8,0)' fill='url(%23a)'/></svg>");
+    padding: 1rem;
     width: 100%;
     text-align: left;
+    border-top: 2px solid;
+    border-image-slice: 1;
+    border-width: 1.5px;
+    border-image-source: linear-gradient(45deg, #AE67FA, #fd813e);
 }
 
 .gpt3__footer-links div {
     width: 250px;
-    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
 }
 
 .gpt3__footer-links_logo {
@@ -72,8 +91,8 @@
 }
 
 .gpt3__footer-links_logo p {
-    font-family: var(--font-family);
-    font-size: 12px;
+    font-family: var(--font-exo);
+    font-size: 10px;
     line-height: 15px;
     color: #fff;
 }
@@ -87,16 +106,14 @@
 .gpt3__footer-links_div h4 {
     font-size: 14px;
     line-height: 17px;
-    font-family: var(--font-family);
-    color: #fff;
-
+    font-family: var(--font-exo);
+ 
     margin-bottom: 0.9rem;
 }
 
 .gpt3__footer-links_div p {
     font-size: 12px;
-    line-height: 15px;
-    font-family: var(--font-family);
+    font-family: var(--font-exo);
     color: #fff;
 
     margin: 0.5rem 0;
@@ -104,16 +121,19 @@
 }
 
 .gpt3__footer-copyright {
-    margin-top: 2rem;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(216, 71%, 5%, 1)'/><path d='M0 0h10v20H0zM30 0v10H10V0zM10 10h10v20H10zM40 10v10H20V10zM20 20h10v20H20zM50 20v10H30V20zM30 30h10v20H30zM20 30v10H0V30zM10 20v10h-20V20zM30-10h10v20H30z'  stroke-width='0.5' stroke='hsla(283, 0%, 18%, 0.35)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-8,0)' fill='url(%23a)'/></svg>");
+    /* margin-top: 2rem; */
     text-align: center;
     width: 100%;
+    padding-bottom: 2rem;
 }
 
 .gpt3__footer-copyright p {
     font-size: 12px;
-    font-family: var(--font-family);
+    font-family: var(--font-exo);
+    margin-top: 2px;
     line-height: 15px;
-    color: #fff;
+    color: rgb(163, 163, 163);
 }
 
 @media screen and (max-width: 850px) {

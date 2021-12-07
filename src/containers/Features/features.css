@@ -17,7 +17,11 @@
     text-align: left;
     margin-right: 5rem;
 }
-
+.gpt3__features-heading img{
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
 .gpt3__features-heading h1 {
     font-size: 34px;
     line-height: 45px;

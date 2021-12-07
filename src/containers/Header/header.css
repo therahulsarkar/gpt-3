@@ -78,8 +78,8 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    background: #FF4820;
-    border: 2px solid #FF4820;
+    background: linear-gradient(45deg, #4e17ce, #f75d0a);
+    border: 0px solid #FF4820;
     padding: 0 1rem;
     color: #fff;
     cursor: pointer;
@@ -164,7 +164,6 @@
 
 @media screen and (max-width: 490px) {
     .gpt3HeaderContent h1 {
-        margin-top: -1rem;
         font-size: 36px;
         line-height: 48px;
         font-weight:900;

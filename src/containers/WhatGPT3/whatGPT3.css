@@ -44,6 +44,11 @@
     margin: 4rem 0 2rem;
 }
 
+.gpt3__whatgpt3-heading img{
+    height: 200px;
+    width: 200px;
+
+}
 .gpt3__whatgpt3-heading h1 {
     font-size: 2rem;
     line-height: 45px;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './brand.css'
-import { google, slack, atlassian, dropbox, shopify } from './images';
+import { google, slack, atlassian, dropbox } from './images';
 
 function brand() {
     return (
@@ -16,9 +16,6 @@ function brand() {
         </div>
         <div>
           <img src={dropbox} />
-        </div>
-        <div>
-          <img src={shopify} />
         </div>
       </div>
     )

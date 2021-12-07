@@ -1,23 +1,23 @@
 import React from 'react'
 import Feature from '../../components/feature/feature'
 import './features.css'
-
+import face from '../../assets/images/head.png'
 const featuresData = [
     {
-      title: 'Improving end distrusts instantly',
-      text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+      title: 'Technical support ',
+      text: 'Support executives can use this feature to provide relevant answers to service requests quickly.',
     },
     {
-      title: 'Become the tended active',
-      text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+      title: 'Developer documentation',
+      text: 'This feature of GPT-3 can parse the documents and provide accurate answers to their queries rather than pointing to relevant pages.',
     },
     {
-      title: 'Message or am nothing',
-      text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+      title: 'Code Oracle',
+      text: 'GPT-3 can not only be used for code generation but can also be used for code comprehension. Here’s an example where GPT-3 comprehends the code written in Python language in detail.',
     },
     {
-      title: 'Really boy law county',
-      text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+      title: 'The AI recursion',
+      text: 'GPT-3 can write ML models for specific tasks and datasets. Here’s an example, where user describes the dataset and the required output and GPT-3 helps us in generating code for an ML model.',
     },
   ];
 
@@ -25,8 +25,8 @@ const Features = () => {
     return (
         <div className="gpt3__features sectionPadding" id="features">
     <div className="gpt3__features-heading">
-      <h1 className="gradientText">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p>Request Early Access to Get Started</p>
+      <h1 className="gradientText"> You just need to realize that the future is now. Step into Future today & make it happen.</h1>
+      <img src={face}/>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (
